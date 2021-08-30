@@ -417,6 +417,9 @@ p {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background-image: url(./images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .navbar .navbar-content {
   width: 50%;
@@ -433,4 +436,19 @@ p {
 .navbar .navbar-content ul li:hover {
   color: #d6605c;
   text-decoration: underline;
+}
+
+.home {
+  height: 100vh;
+  background-image: url(./images/placeholder.jpg);
+  background-size: cover;
+}
+.home .container {
+  margin-top: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  box-shadow: none;
 }/*# sourceMappingURL=main.css.map */
