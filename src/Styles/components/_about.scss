@@ -1,0 +1,15 @@
+@use '../themes/defaultTheme' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+.about {
+    height: 100vh;
+    .container{
+        @include flex-space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    .right-p{
+        border-left: solid 3px black;
+    }
+}

@@ -5,9 +5,9 @@ const Home = () => {
         <div className="home">
             <div className="section">
                 <div className="container">
-                    <h1>AC and RV repair</h1>
-                    <img src="" alt="put image here when i figure out how img src works" />
-                    <p>We repair ACs and RVs</p>
+                    <h1>[company name here]</h1>
+                    <img src="./Styles/images/placeholder.jpg" alt="put image here when i figure out how img src works" />
+                    <p>[a slogan or whatever else you want to put here]</p>
                 </div>
             </div>
         </div>

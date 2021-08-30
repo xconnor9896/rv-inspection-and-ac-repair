@@ -51,7 +51,7 @@ div {
     flex-direction: column;
 }
 
-@mixin flex-sapce-between {
+@mixin flex-space-between {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ div {
 @mixin flex-space-around {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 // used when *, *::after, *::before is used

@@ -24,6 +24,9 @@
         align-items: center;
     }
 
+    @include flex-space-around;
+    text-align: center;
+
     width: 90vw;
     margin: 5rem auto;
     max-width: $max-width;

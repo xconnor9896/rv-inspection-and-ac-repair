@@ -15,6 +15,8 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: $light-shadow;
+    position: sticky;
+    top: 0;
     .navbar-content{
         width: 50%;
         ul{
