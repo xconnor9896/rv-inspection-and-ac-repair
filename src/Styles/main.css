@@ -456,4 +456,13 @@ p {
   flex-direction: column;
   background-color: transparent;
   box-shadow: none;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container a {
+  color: darkblue;
 }/*# sourceMappingURL=main.css.map */

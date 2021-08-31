@@ -4,10 +4,7 @@
 
 .contact-container {
     @include flex-center;
-    flex-direction: column;
     a {
-        width: 115px;
-        height: 25px;
-        color: $primary-3;
+        color: darkblue;
     }
 }
