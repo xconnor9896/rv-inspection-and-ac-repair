@@ -6,7 +6,7 @@ const About = () => {
             <div className="container">
                 <div className="row">
                     <h2>Testimonials</h2>
-                    <p>I'm baby aesthetic chicharrones locavore etsy lyft hammock pok pok. Schlitz marfa vinyl vape. Enamel pin literally organic yr pitchfork copper mug, austin artisan microdosing cold-pressed readymade lyft viral. Shaman microdosing gochujang, vexillologist authentic yuccie swag disrupt four loko cray pitchfork.</p>
+                    <p className="left-p">I'm baby aesthetic chicharrones locavore etsy lyft hammock pok pok. Schlitz marfa vinyl vape. Enamel pin literally organic yr pitchfork copper mug, austin artisan microdosing cold-pressed readymade lyft viral. Shaman microdosing gochujang, vexillologist authentic yuccie swag disrupt four loko cray pitchfork.</p>
                 </div>
                 <div className="row">
                     <h2>About Us</h2>

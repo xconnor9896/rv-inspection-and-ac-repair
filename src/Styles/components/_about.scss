@@ -7,9 +7,27 @@
     .container{
         @include flex-space-between;
         flex-direction: column;
+        @include tablet{
+            flex-direction: row;
+        }
         text-align: center;
     }
-    .right-p{
-        border-left: solid 3px black;
+    .left-p{
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+        margin-bottom: .5rem;
     }
+    @include tablet{
+        .left-p{
+        padding-right: .8rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    .right-p{
+        padding-left: 1.2rem;
+        border-left: 1px solid black;
+    }
+    }
+    
 }
