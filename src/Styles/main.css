@@ -512,10 +512,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 .contact-container a {
-  width: 115px;
-  height: 25px;
-  color: #b8322e;
+  color: darkblue;
 }/*# sourceMappingURL=main.css.map */

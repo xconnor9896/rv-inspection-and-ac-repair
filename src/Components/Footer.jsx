@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-const Contact = () => {
+const Footer = () => {
     return (
-        <div className="contact-container">
-            <h1>Contact Us!</h1>
+        <div className="footer">
+            <p>Contact Us!</p>
             <a href="tel:+16234745069">Call @ 623-474-5069</a>
         </div>
     )
 }
 
-export default Contact
+export default Footer
