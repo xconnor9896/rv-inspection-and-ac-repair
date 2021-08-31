@@ -421,8 +421,9 @@ p {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
+  background-image: url(./images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .navbar .navbar-content {
   width: 50%;

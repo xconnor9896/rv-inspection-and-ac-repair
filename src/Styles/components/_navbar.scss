@@ -15,8 +15,10 @@
     align-items: center;
     justify-content: space-between;
     box-shadow: $light-shadow;
-    position: sticky;
-    top: 0;
+    background-image: url(./images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
     .navbar-content{
         width: 50%;
         ul{
