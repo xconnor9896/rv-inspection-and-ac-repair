@@ -330,6 +330,10 @@ body {
   }
 }
 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
   width: 90vw;
   margin: 5rem auto;
   max-width: 920px;
@@ -448,6 +452,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex-direction: column;
   background-color: transparent;
   box-shadow: none;

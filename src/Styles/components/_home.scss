@@ -9,6 +9,7 @@
     .container{
         margin-top: 25%;
         @include flex-center;
+        text-align: center;
         flex-direction: column;
         background-color: transparent;
         box-shadow: none;
