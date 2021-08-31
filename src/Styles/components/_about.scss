@@ -5,11 +5,16 @@
 .about {
     height: 100vh;
     .container{
-        @include flex-space-between;
-        flex-direction: column;
+        @include flex-center;
+        flex-direction: row;
         text-align: center;
     }
-    .right-p{
-        border-left: solid 3px black;
+
+    @include large {
+        .container{
+            @include flex-space-around;
+            flex-direction: column;
+            text-align: center;
+        }
     }
 }
