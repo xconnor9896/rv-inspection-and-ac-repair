@@ -3,6 +3,9 @@
 @use '../util/mixins' as *;
 
 .about {
+    h2{
+        color: $primary-3;
+    }
     height: 100vh;
     .container{
         @include flex-space-between;
