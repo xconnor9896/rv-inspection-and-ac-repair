@@ -1,70 +1,146 @@
-# Getting Started with Create React App
+<!-- Output copied to clipboard! -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-----
+NEW: Check the "Suppress top comment" option to remove this info from the output.
 
-## Available Scripts
+Conversion time: 0.754 seconds.
 
-In the project directory, you can run:
 
-### `npm start`
+Using this Markdown file:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Conversion notes:
 
-### `npm test`
+* Docs to Markdown version 1.0β31
+* Wed Sep 01 2021 13:47:30 GMT-0700 (PDT)
+* Source doc: RV Inspection SDLC
+* Tables are currently converted to HTML tables.
+* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+----->
 
-### `npm run build`
+<table>
+  <tr>
+   <td>RV Website Project
+   </td>
+   <td>
+   </td>
+   <td>Clancy’s RV Inspection & Repair
+   </td>
+  </tr>
+  <tr>
+   <td>Designer Names:
+<ol>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<li>Connor Kobriger
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<li>Adrian Sapien
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<li>Kevin Murray
+</li>
+</ol>
+   </td>
+   <td>
+   </td>
+   <td>Client Names:
+<ol>
 
-### `npm run eject`
+<li>Clancy Briggs
+</li>
+</ol>
+   </td>
+  </tr>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Clancy’s RV Inspection & Repair**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**—**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Planning_
 
-## Learn More
+_—_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Mockup](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Mockup.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project will host a website for a business that specializes in RV inspection services, as well as repair services for air conditioning units for RVs. Since websites designed in React are meant to be mobile-first, this project was designed with responsiveness in mind. We had a lot of creative liberty with this project, and the only request that we received from the client was that he liked the color red. A rough sketch was created to visualize the potential design of the project, shown above. This sketch does not reflect the final design as it is a very early prototype.
 
-### Code Splitting
+_Design for Computers & Tablets_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+_—_
 
-### Analyzing the Bundle Size
+![Desktop 1](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Desktop1.png)
+![Desktop 2](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Desktop2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The design for computers and tablets is made with simplicity in mind. The site has an airy and open layout while keeping everything as simple as possible. On the top of the page, a navbar is displayed with a logo on the left, with three buttons on the right, “Home”, “About”, and “Contact.” In dead center is the company name, with a slogan directly on the bottom. When the user scrolls down, they get to see a dual-sided container that has customer testimonials on the left hand side and an “About Us” section on the right, which describes the business. On the bottom is a footer that has regulatory information, such as the company name, address, and a clickable phone number that allows users to call the number when clicked.
 
-### Making a Progressive Web App
+_Design for Mobile & Small Displays_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_—_
 
-### Advanced Configuration
+![Mobile](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Mobile.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The design for smartphones is nearly identical to the desktop version, but all of the containers and other elements are fully responsive depending on the screen size.
 
-### Deployment
+_Development_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+_—_
 
-### `npm run build` fails to minify
+08/27/2021
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+* Began brainstorming design
+* Created GitHub repository
+* Sorted out issues with GitHub pushing and pulling
+
+08/28/2021
+
+
+
+* **_Weekend! Take a break!_**
+
+08/29/2021
+
+
+
+* **_Weekend! Take a break!_**
+
+08/30/2021
+
+
+
+* Laid groundwork for navbar, contact form, and testimonials/about us
+* Changed colors around to accommodate client’s recommendation of the color RED
+* Found a permanent background image for landing
+
+08/31/2021
+
+
+
+* Finalized design of the footer along with content inside of it
+* Found a font for all elements of the site
+
+09/01/2021
+
+
+
+* Navbar jumps to respective sections of the site, is fully functional
+* Button that allows users to call the number from footer now operational
+* Website finalized and SDLC published to GitHub repository
+
+_Testing_
+
+_—_
+
+The first check-up on this project will be completed on Wednesday, September 1, 2021. The final release of the website is to be determined. At the end of each day, the site was pushed to a GitHub repository that contains all of the files. 
+
+_Delivery_
+
+_—_
+
+This project will be submitted to Google Classroom to Mr.Peck on Wednesday, September 1, 2021. Next steps in delivering the site to the client will be discussed should this project be chosen.
