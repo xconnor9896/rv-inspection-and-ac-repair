@@ -23,16 +23,6 @@ Conversion notes:
 
 ----->
 
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 1.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 <table>
   <tr>
    <td>RV Website Project
@@ -75,7 +65,7 @@ _Planning_
 
 _—_
 
-
+![Mockup](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Mockup.jpg)
 
 This project will host a website for a business that specializes in RV inspection services, as well as repair services for air conditioning units for RVs. Since websites designed in React are meant to be mobile-first, this project was designed with responsiveness in mind. We had a lot of creative liberty with this project, and the only request that we received from the client was that he liked the color red. A rough sketch was created to visualize the potential design of the project, shown above. This sketch does not reflect the final design as it is a very early prototype.
 
@@ -83,11 +73,16 @@ _Design for Computers & Tablets_
 
 _—_
 
+![Desktop 1](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Desktop1.png)
+![Desktop 2](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Desktop2.png)
+
 The design for computers and tablets is made with simplicity in mind. The site has an airy and open layout while keeping everything as simple as possible. On the top of the page, a navbar is displayed with a logo on the left, with three buttons on the right, “Home”, “About”, and “Contact.” In dead center is the company name, with a slogan directly on the bottom. When the user scrolls down, they get to see a dual-sided container that has customer testimonials on the left hand side and an “About Us” section on the right, which describes the business. On the bottom is a footer that has regulatory information, such as the company name, address, and a clickable phone number that allows users to call the number when clicked.
 
 _Design for Mobile & Small Displays_
 
 _—_
+
+![Mobile](https://github.com/xconnor9896/rv-inspection-and-ac-repair/blob/main/readme-images/Mobile.png)
 
 The design for smartphones is nearly identical to the desktop version, but all of the containers and other elements are fully responsive depending on the screen size.
 
