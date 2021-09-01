@@ -1,0 +1,55 @@
+@use '../themes/defaultTheme' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    h2 {
+        color: $primary-3;
+    }
+    h3 {
+        margin: 1rem 1rem;
+        color: $primary-5;
+    }
+    .row-1{
+        display: flex;
+        border-bottom: 1px solid black;
+        padding-bottom: .5rem;
+        margin-bottom: .5rem;
+    }
+    height: auto;
+    .container{
+        @include flex-space-between;
+        flex-direction: column;
+        @include tablet{
+            flex-direction: row;
+        }
+        text-align: center;
+    }
+    .left-p{
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+        margin-bottom: .5rem;
+    }
+    @include tablet{
+        .left-p{
+        padding-right: .8rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: none;
+        }
+        .right-p{
+            padding-left: 1.2rem;
+            border-left: 1px solid black;
+        }
+        .row-1{
+            border-bottom: none;
+            padding-right: 1.2rem;
+        }
+    }
+    iframe {
+        width: auto;
+        height: auto;
+    }
+}
