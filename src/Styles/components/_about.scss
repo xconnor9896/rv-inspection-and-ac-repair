@@ -3,18 +3,34 @@
 @use '../util/mixins' as *;
 
 .about {
+    h2{
+        color: $primary-3;
+    }
     height: 100vh;
     .container{
-        @include flex-center;
-        flex-direction: row;
+        @include flex-space-between;
+        flex-direction: column;
+        @include tablet{
+            flex-direction: row;
+        }
         text-align: center;
     }
-
-    @include large {
-        .container{
-            @include flex-space-around;
-            flex-direction: column;
-            text-align: center;
-        }
+    .left-p{
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+        margin-bottom: .5rem;
     }
+    @include tablet{
+        .left-p{
+        padding-right: .8rem;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    .right-p{
+        padding-left: 1.2rem;
+        border-left: 1px solid black;
+    }
+    }
+    
 }

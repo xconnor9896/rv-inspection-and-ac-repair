@@ -1,0 +1,18 @@
+@use '../themes/defaultTheme' as *;
+@use '../util/variables' as *;
+@use '../util/mixins' as *;
+
+.footer {
+    @include flex-center;
+    justify-content: center;
+    align-items: center;
+    p {
+        padding-right: 1rem;
+    }
+    a {
+        @include tablet {
+            height: 17px;
+        }
+        height: 38px;
+    }
+}
