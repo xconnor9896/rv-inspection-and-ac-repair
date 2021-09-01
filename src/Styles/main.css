@@ -432,6 +432,11 @@ p {
 .navbar .navbar-content {
   width: 50%;
 }
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-content {
+    width: 30%;
+  }
+}
 .navbar .navbar-content ul {
   list-style-type: none;
   display: flex;
@@ -441,9 +446,15 @@ p {
 .navbar .navbar-content ul li {
   font-size: 1.1rem;
 }
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-content ul li {
+    font-size: 1.5rem;
+  }
+}
 .navbar .navbar-content ul li:hover {
   color: #d6605c;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .home {
