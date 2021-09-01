@@ -484,10 +484,19 @@ p {
 }
 
 .about {
-  height: 100vh;
+  height: auto;
 }
 .about h2 {
   color: #b8322e;
+}
+.about h3 {
+  margin: 1rem 1rem;
+  color: #d6605c;
+}
+.about .row-1 {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .about .container {
   display: flex;
@@ -516,6 +525,10 @@ p {
   .about .right-p {
     padding-left: 1.2rem;
     border-left: 1px solid black;
+  }
+  .about .row-1 {
+    border-bottom: none;
+    padding-right: 1.2rem;
   }
 }
 
