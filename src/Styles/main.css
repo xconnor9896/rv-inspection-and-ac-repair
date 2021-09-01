@@ -446,6 +446,12 @@ p {
 .navbar .navbar-content ul li {
   font-size: 1.1rem;
 }
+.navbar .navbar-content ul li a:visited {
+  color: #222222;
+}
+.navbar .navbar-content ul li a:visited:hover {
+  color: #d6605c;
+}
 @media only screen and (min-width: 768px) {
   .navbar .navbar-content ul li {
     font-size: 1.5rem;
@@ -459,8 +465,8 @@ p {
 
 .home {
   color: #ffffff;
-  height: 100vh;
-  background-image: url(./images/backgroundcrop.jpg);
+  height: 90vh;
+  background-image: url(./images/backgroundcropagain.jpg);
   background-size: cover;
   text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
   background-position: center;
